@@ -81,4 +81,52 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    row-gap: 10px;
+}
+#two_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted rgba(0, 0, 0, 0.527);
+    border-radius: 15px;
+    position: relative;
+}
+#two_two{
+    display: flex;
+    justify-content: baseline;
+    background: burlywood;
+    flex-direction: column;
+    position: absolute;
+    top: 182%;
+    width: 120px;
+    padding-left: 10px;
+}
+.three{
+    color: rgb(255, 68, 0);
+    background: linear-gradient(grey, white, grey);
+    border: 2px dashed rgb(255, 68, 0);
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+.a:hover{
+    color:rgb(255, 68, 0);
+}
+.btn2{
+    background-color: rgb(255, 68, 0);
+    border-radius: 50px;
+    border: 2px dotted white;
+    color: white;
+    height: 40px;
+    width: 130px;
 }
